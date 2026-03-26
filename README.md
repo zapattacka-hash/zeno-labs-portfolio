@@ -46,3 +46,22 @@ Zeno-Phantom is an automated exploitation-hunting script designed to detect Subd
 
 ### Usage
 `./zeno-phantom.sh <subdomains-list.txt>`
+
+---
+
+## Zeno-CloudAudit: CSPM & IAM Policy Scanner
+**Developer**: Zacheriah Alan Potter (Zeno Labs)
+**Version**: 1.0.0
+**Language**: Python 3
+
+### Overview
+Zeno-CloudAudit is a lightweight Cloud Security Posture Management (CSPM) utility. Misconfigured cloud storage is a primary vector for modern data breaches. This tool automates the auditing process by parsing Identity and Access Management (IAM) JSON policies to detect unintentionally exposed assets.
+
+### Features
+* **IAM Policy Parsing**: Iterates through cloud storage bucket configurations to evaluate permission bindings.
+* **Public Exposure Detection**: Automatically flags critical misconfigurations where `allUsers` or `allAuthenticatedUsers` are granted read/write or admin roles.
+* **Rapid Triage**: Outputs clear, actionable alerts identifying the exact exposed role and bucket, allowing security teams to immediately revoke public access.
+
+### Usage
+`python3 zeno-cloudaudit.py`
+
