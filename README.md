@@ -65,3 +65,22 @@ Zeno-CloudAudit is a lightweight Cloud Security Posture Management (CSPM) utilit
 ### Usage
 `python3 zeno-cloudaudit.py`
 
+## 🔍 Zeno-Dorker: Automated OSINT Payload Generator
+**Developer:** Zacheriah Alan Potter | Zeno Labs
+**Language:** Python 3
+**Category:** Open-Source Intelligence (OSINT) / Reconnaissance
+
+### Overview
+`Zeno-Dorker` is a lightweight, automated reconnaissance engine designed to bypass search engine anti-bot mechanisms (like CAPTCHA blacklists). It dynamically generates URL-encoded Google Dork payloads to identify exposed infrastructure, leaked documents, and misconfigured access portals across any specified target domain. 
+
+### Threat Vectors Targeted
+* **Exposed Government/Corporate Documents:** Automates the discovery of improperly secured `.pdf` and `.xlsx` files containing sensitive classifications (e.g., FOUO, CUI, Confidential).
+* **Leaked Server Logs & Databases:** Hunts for exposed `.log`, `.sql`, and `.env` files that inadvertently broadcast system architecture or credentials.
+* **Hidden Admin Directories:** Maps undocumented web server structures by targeting `inurl:admin`, `login`, and `intranet` endpoints.
+* **Employee PII & Access Rosters:** Scours domains for internal spreadsheets (`.xls`, `.csv`) indicating employee matrices, clearance levels, or active network rosters.
+
+### Usage
+```bash
+python3 zeno-dorker.py [target-domain.com]
+
+
