@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a3/yf6e4Czw=",
+  "success": true,
+  "projectFilePath": "/data/data/com.termux/files/home/zeno-labs-portfolio/VariantTrackerAPI/VariantTrackerAPI.csproj",
+  "expectedPackageFiles": [
+    "/data/data/com.termux/files/home/.nuget/packages/microsoft.aspnetcore.openapi/9.0.14/microsoft.aspnetcore.openapi.9.0.14.nupkg.sha512",
+    "/data/data/com.termux/files/home/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
