@@ -1,14 +1,16 @@
 # XZ Labs (Xeno-Zeno)
 **Lead Architect:** Zacheriah Alan Potter
 
-## Project: Sentinel-Gemma (Competition Entry)
-Applying **Partial Trace** logic to OSINT. Using Gemma 4 to trace out environmental noise (honeypots/bots) and isolate pure threat intelligence ($\rho_S$).
+## 1. Mechanical Intelligence: 75 mph Prototype
+* **Target Speed:** 75 mph (Purely Mechanical)
+* **Calculated Gear Ratio:** 10.37:1
+* **Drivetrain:** Dual-stage jackshaft configuration.
+* **Physics:** Applying torque-load balancing to maximize output from a standard cadence.
 
-## Core Repositories
-* **/tools**: Sentinel Engine & Gemma Integration.
-* **/physics**: Quantum Decoherence & Twistor Theory research.
-* **/audits**: DHS/TSA Infrastructure mapping logs.
+## 2. Cybersecurity: Sentinel-Gemma
+* **Protocol:** Partial Trace Logic.
+* **Logic:** Utilizing Gemma 4 to execute $Tr_E(\rho_{total})$, removing "Environmental Noise" (honeypots/duplicates) to isolate the "Pure Signal" $\rho_S$ of network threats.
 
-## Current Sprint
-* Transitioning logic to Gemma 4 for the May 18th Hackathon.
-* Optimizing Signal-to-Noise ratios in noisy network environments.
+## 3. Infrastructure & Audits
+* Perimeter mapping and DNS integrity logs for DHS/TSA-level security simulations.
+
