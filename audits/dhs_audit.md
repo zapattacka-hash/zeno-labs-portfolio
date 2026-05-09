@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Zeno Labs: DHS Infrastructure Audit Report
+=======
+Zeno Labs: DHS Infrastructure Audit Report
+>>>>>>> b2b32c8658d89f713ef22b08337a2aeaa9985b4e
 **Date**: March 18, 2026
 **Researcher**: Zacheriah Alan Potter
 **Target**: dhs.gov / tripwire-dhs.us
@@ -18,4 +22,8 @@ A technical audit of the DHS SPF records identified a stale 'Ghost' entry for th
 - **Verification**: nslookup mail.tripwire-dhs.us -> NXDOMAIN
 
 ## Recommendation
+<<<<<<< HEAD
 Remove the 'a:mail.tripwire-dhs.us' mechanism from the dhs.gov SPF record.
+=======
+Remove the 'a:mail.tripwire-dhs.us' mechanism from the dhs.gov SPF record.
+>>>>>>> b2b32c8658d89f713ef22b08337a2aeaa9985b4e

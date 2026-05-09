@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+ $ cat << 'EOF' > zeno-cloudaudit.py
+>>>>>>> b2b32c8658d89f713ef22b08337a2aeaa9985b4e
 #!/usr/bin/env python3
 # Zeno-CloudAudit: Lightweight CSPM & IAM Auditor
 # Author: Zacheriah Alan Potter (Zeno Labs)
@@ -16,9 +20,15 @@ def audit_bucket(bucket_name, policy):
     """Audits a single bucket's IAM policy for public exposure."""
     print(f"[*] Auditing gs://{bucket_name} ...")
     time.sleep(0.5)
+<<<<<<< HEAD
     
     members = policy.get("members", [])
     
+=======
+
+    members = policy.get("members", [])
+
+>>>>>>> b2b32c8658d89f713ef22b08337a2aeaa9985b4e
     # Logic engine looking for open access flags
     if "allUsers" in members or "allAuthenticatedUsers" in members:
         print(f"    [!] CRITICAL: Public Access Detected in IAM Policy!")
@@ -31,6 +41,7 @@ if __name__ == "__main__":
     print("=============================================")
     print("   ☁️ ZENO-CLOUDAUDIT: CSPM IAM SCANNER")
     print("=============================================")
+<<<<<<< HEAD
     
     for bucket, policy in MOCK_CLOUD_BUCKETS.items():
         audit_bucket(bucket, policy)
@@ -38,3 +49,34 @@ if __name__ == "__main__":
         
     print("   [+] CLOUD AUDIT COMPLETE")
     print("=============================================\n")
+=======
+
+    for bucket, policy in MOCK_CLOUD_BUCKETS.items():
+        audit_bucket(bucket, policy)
+        print("-" * 45)
+
+    print("   [+] CLOUD AUDIT COMPLETE")
+    print("=============================================\n")
+EOF
+
+chmod +x zeno-cloudaudit.py
+python zeno-cloudaudit.py
+=============================================
+   ☁️ ZENO-CLOUDAUDIT: CSPM IAM SCANNER
+=============================================
+[*] Auditing gs://zeno-app-assets-prod ...
+    [*] SECURE: No public IAM bindings found.
+---------------------------------------------
+[*] Auditing gs://zeno-public-images ...
+    [!] CRITICAL: Public Access Detected in IAM Policy!
+        -> Exposed Role: roles/storage.objectViewer
+        -> Exposed Entities: allUsers
+---------------------------------------------
+[*] Auditing gs://zeno-customer-backups ...
+    [!] CRITICAL: Public Access Detected in IAM Policy!
+        -> Exposed Role: roles/storage.admin
+        -> Exposed Entities: allAuthenticatedUsers
+---------------------------------------------
+   [+] CLOUD AUDIT COMPLETE
+=============================================
+>>>>>>> b2b32c8658d89f713ef22b08337a2aeaa9985b4e
