@@ -1,0 +1,35 @@
+# XZ Labs Portfolio - Ignore Rules
+
+# C# / .NET
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.sln.doccache
+.vs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+ENV/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# XZ Labs Bloat Prevention
+*.tar.xz
+*.zip
+*.msi
+*.bin
+*.iso
+projects/xz_labs/Anaconda3*
+projects/xz_labs/archive.zip
+kali-nethunter-rootfs*
+node_modules/
+.nvm/
+.cache/
+
