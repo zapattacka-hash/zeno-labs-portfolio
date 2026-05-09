@@ -1,0 +1,14 @@
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/bin/Debug/net9.0/QNodeCore_v2
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/bin/Debug/net9.0/QNodeCore_v2.deps.json
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/bin/Debug/net9.0/QNodeCore_v2.runtimeconfig.json
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/bin/Debug/net9.0/QNodeCore_v2.dll
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/bin/Debug/net9.0/QNodeCore_v2.pdb
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.GeneratedMSBuildEditorConfig.editorconfig
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.AssemblyInfoInputs.cache
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.AssemblyInfo.cs
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.csproj.CoreCompileInputs.cache
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.dll
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/refint/QNodeCore_v2.dll
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.pdb
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/QNodeCore_v2.genruntimeconfig.cache
+/data/data/com.termux/files/home/zeno-labs/q-node/QNodeCore_v2/obj/Debug/net9.0/ref/QNodeCore_v2.dll
