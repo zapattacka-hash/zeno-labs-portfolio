@@ -13,4 +13,3 @@
 
 ## 3. Infrastructure & Audits
 * Perimeter mapping and DNS integrity logs for DHS/TSA-level security simulations.
-
